@@ -1,0 +1,31 @@
+.titulo-vista-general{
+  display: flex;
+  align-items: center;
+  width: 96%;
+  height: 4rem;
+  padding:3% 0% 0% 2%;
+}
+
+.mb-3{
+  width: 100%;
+}
+
+.item-flex {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  column-gap: 1rem;
+}
+
+.item-flex button {
+  width: 50%;
+}
+
+.item-flex button input{
+  width: 50%;
+}
+
+.btn-pill{
+  height: 3rem;
+  width: 100%;
+}

@@ -1,0 +1,35 @@
+.opt-user-container {
+  padding: 13px;
+  justify-content:center;
+  align-items:flex-start;
+}
+.item-flex{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.btn-rounded{
+  height: 50px;
+  width: 50px;
+  position: relative; /* permite posicionar el elemento secundario con absoluta */
+}
+
+button img {
+  height: 65%;
+  width: 65%; /* establece el ancho de la imagen en un porcentaje del ancho del botón */
+}
+
+.notificacion {
+  position: absolute; /* posiciona el elemento secundario con absoluta */
+  top: -5px; /* posiciona el elemento secundario en la esquina superior derecha del botón */
+  right: -5px;
+  width: 18px; /* establece el ancho y el alto del elemento secundario */
+  height: 18px;
+  border-radius: 50%; /* redondea los bordes del elemento secundario */
+  background-color: #BC1656; /* establece el color de fondo del elemento secundario */
+}

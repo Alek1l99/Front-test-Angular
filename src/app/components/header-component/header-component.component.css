@@ -1,0 +1,41 @@
+.bg-body-purple{
+  background-color: #E4E0E8;
+}
+
+.btn-color-darkPurple{
+  color: #FFFFFF;
+}
+
+.text-color-darkPurple{
+  color: var(--dark-purple-color);
+}
+
+.text-header{
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.text-header span{
+  margin:0;
+}
+
+.btn-informacion {
+  margin: 4px 0px 0px 15px;
+  position: relative; /* permite posicionar el elemento secundario con absoluta */
+}
+
+.icono-informacion:hover + .dialogo-uso-de-datos { /* muestra el elemento secundario cuando el usuario pasa el cursor sobre el elemento principal */
+/* muestra el elemento secundario cuando el usuario pasa el cursor sobre el elemento principal */
+display: block;
+position: absolute; /* posiciona el elemento secundario con absoluta */
+top: 100%; /* posiciona el elemento secundario debajo del elemento principal */
+right: 0; /* establece el ancho del elemento secundario en el ancho de la pantalla */
+padding: 10px; /* añade espacio interno al elemento secundario */
+background-color: black; /* establece el color de fondo del elemento secundario */
+color: white; /* establece el color de texto del elemento secundario */
+}
+
+.dialogo-uso-de-datos {
+  z-index: 1;
+  display: none; /* oculta el elemento secundario por defecto */
+}

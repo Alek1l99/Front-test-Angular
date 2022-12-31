@@ -1,0 +1,119 @@
+:root {
+  --dark-purple-color: #632678;
+}
+
+body {
+  background-color: #F1F1F7;
+}
+
+h2 {
+  color: #000000;
+}
+
+.btn-color-darkPurple {
+  background-color: var(--dark-purple-color);
+}
+
+.btn-color-softPurple {
+  background-color: #E4E0E8;
+}
+
+.btn-rounded {
+  margin: 5px;
+  text-align: center;
+  border-radius: 50%;
+  /* redondea los bordes */
+  border-color: transparent;
+}
+
+h2 {
+  font-size: 21px;
+  text-align: left;
+  font-family: din-2014, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0.21px;
+  color: #000000;
+  opacity: 1;
+
+}
+
+h3 {
+  font-size: 20px;
+  text-align: left;
+  font-family: din-2014, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0.2px;
+  color: #632678;
+  opacity: 1;
+}
+
+.main-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0px;
+  color: #492F77;
+  opacity: 1;
+  font-size: 14px;
+  text-align: center;
+}
+
+.secondary-text {
+  font-size: 11px;
+  text-align: left;
+  font-family: din-2014, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+
+  margin: 0;
+  font-size: 11px;
+  text-align: center;
+}
+
+.btn-pill .main-text {
+  color: #FFFFFF;
+  letter-spacing: 0.14px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.btn-pill {
+  display: inline-flex;
+  height: 24px;
+  width: 104px;
+  border-radius: 8px;
+  margin: 5px;
+  padding: 2px;
+  justify-content: center;
+  column-gap: 10px;
+  align-items: center;
+  border-color: transparent;
+}
+
+.box-shadow-container {
+  margin: 8px;
+  width: 100%;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  column-gap: 1rem;
+  border-radius: 10px;
+  /* redondea el borde */
+  box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 0.1);
+  /* añade sombra a la derecha y en la parte inferior */
+}
+
+.informacion-container {
+  width: 96%;
+  padding: 13px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+input::placeholder {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+}

@@ -6,16 +6,23 @@ import { AppComponent } from './app.component';
 import { HeaderComponentComponent } from './components/header-component/header-component.component';
 import { UserMenuOptionsComponentComponent } from './components/user-menu-options-component/user-menu-options-component.component';
 import { VistaGeneralDeLaCuentaComponentComponent } from './components/vista-general-de-la-cuenta-component/vista-general-de-la-cuenta-component.component';
+import { ServiceComponentComponent } from './service-component/service-component.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponentComponent,
     UserMenuOptionsComponentComponent,
-    VistaGeneralDeLaCuentaComponentComponent
+    VistaGeneralDeLaCuentaComponentComponent,
+    ServiceComponentComponent
   ],
   imports: [
+    HttpClientModule,
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
